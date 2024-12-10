@@ -15,7 +15,7 @@ export const Toast: any = (
 ) => {
   const messageToShow = message ? titleWithMessage(title, message) : titleWithoutMessage(title)
   let toastToShow
-  const actualPosition = position || "top-left"
+  const actualPosition = position || "top-right"
 
   switch (type) {
     case 'error':
